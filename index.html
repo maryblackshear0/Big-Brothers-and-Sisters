@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Youth mentorship charity campaign">
+  <title>Big Brothers and Sisters</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top" id="brandName">Charity Drive</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#needs">Needs</a>
+        <a href="#impact">Impact</a>
+        <a class="nav-button" href="#donate">Donate</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" id="heroEyebrow">INVEST TODAY. EMPOWER TOMORROW.</p>
+          <h1 id="heroTitle">Youth Mentorship Program</h1>
+          <p class="hero-subtitle" id="heroSubtitle">
+            Strong kids. Strong community. Stronger future.
+          </p>
+          <p class="hero-text" id="heroDescription"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="heroDonate" href="#donate">Donate Today</a>
+            <a class="button secondary" href="#needs">See What We Need</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/charity-flyer.jpg" alt="Youth mentorship program flyer">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT THE CAMPAIGN</p>
+          <h2 id="aboutTitle">Give young people a chance to play, grow and lead.</h2>
+          <p id="aboutText"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="needs">
+      <div class="container">
+        <div class="section-heading light">
+          <p class="eyebrow">WE ARE COLLECTING</p>
+          <h2>Ways to support</h2>
+        </div>
+        <div class="needs-grid" id="needsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="impact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHY IT MATTERS</p>
+          <h2>Every contribution can create opportunity.</h2>
+        </div>
+        <div class="impact-grid" id="impactGrid"></div>
+      </section>
+
+    <section class="donate-section" id="donate">
+      <div class="container donate-box">
+        <div>
+          <p class="eyebrow">MAKE A DIFFERENCE</p>
+          <h2 id="donateTitle">Donate today.</h2>
+          <p id="donateText"></p>
+        </div>
+        <div class="donate-actions">
+          <a class="button primary large" id="donateButton" href="#" target="_blank" rel="noopener">Donate Now</a>
+          <p class="small" id="donateNote"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span id="footerName">Charity Drive</span>
+      <span id="footerTagline">Strong kids. Strong community. Stronger future.</span>
+    </div>
+  </footer>
+
+  <script src="charity.js"></script>
+</body>
+</html>
